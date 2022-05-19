@@ -19,7 +19,7 @@ void jikasalah();   //danis
 void skor(int); //ghufran
 void cheque();  //ghufran
 
-void tentang();
+void tentang(); //ghufran
 
 struct biodata
 {
@@ -142,17 +142,12 @@ void header()
 {
     system("cls");
     printf("\t\t");
-   // printf("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n");
     printf("\t\t");
-
- //   printf("**********************************************************\n\n");
     printf("\t\t");
     printf("\n\t===Who Want To Be Millionare====");
     printf("\n\t\t\t\tUSERNAME : %s", d.username);
     printf("\t\t");
-  //  printf("***********************************************************\n\n");
     printf("\t\t");
-  //  printf("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n");
 }
 
 void petunjuk()
@@ -167,7 +162,7 @@ void petunjuk()
     getch();
 }
 
-void skor(int a) //
+void skor(int a) 
 
 {
     FILE *fp;
