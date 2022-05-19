@@ -12,9 +12,9 @@ void header();  //kiram
 void petunjuk();    //kiram
 void mainmenu();    //kiram
 
-void quiz1();   //danis
-void jikabenar();   //danis
-void jikasalah();   //danis
+void quiz1();   //danish
+void jikabenar();   //danish
+void jikasalah();   //danish
 
 void skor(int); //ghufran
 void cheque();  //ghufran
