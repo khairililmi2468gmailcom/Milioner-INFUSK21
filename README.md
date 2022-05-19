@@ -5,4 +5,4 @@ Ada beberapa menu antara lain :
 2. Login
 
 dan menggunakan file untuk menyimpan data
-compile dengan gcc ./new_mil.c -o ./mil
+compile dengan gcc ./main.c -o ./main
