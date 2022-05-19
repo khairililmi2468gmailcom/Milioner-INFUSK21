@@ -21,7 +21,7 @@ void cheque();  //ghufran
 
 void tentang(); //ghufran
 
-struct biodata  //struct bersifat global
+struct biodata
 {
     char name[25];
     char username[25];
@@ -400,7 +400,7 @@ void tentang()
     header();
     printf("\n\nTENTANG");
     printf("\n\n\nPENCIPTA :  \n");
-    printf("\n\n\n1. KHAIRIL ILMI\n2. MUHAMMAD DANIS RABANI\n3. DJULKIRAM HILMI\n4.GHUFRAN ");
+    printf("\n\n\n1. Khairil Ilmi\n2. Muhammad Danish Rabbani\n3. Dzulkiram Hilmi\n4.Muhammad Ghufran ");
     printf("\n\n\nWho Want to be a millionare adalah sebuah game yang terdapat beragam pertanyaan yang harus dijawab. Game ini menawarkan hadiah uang tunai dengan jumlah yang besar bagi pemenangnya.");
     
     getch();
@@ -411,7 +411,9 @@ void jikabenar()
     system("cls");
    
     printf("\t\t*************Selamat!!!***********  \n\n\t\t\t\t Saudara benar.");
-    Beep(500, 500); //Dengan fungsi beep, ia akan meneluarkan nada pada speaker
+   
+
+    Beep(500, 500);
     Beep(1000, 500);
     Beep(1500, 500);
     skor(1);
