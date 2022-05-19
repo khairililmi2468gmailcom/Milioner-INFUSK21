@@ -91,8 +91,8 @@ p1:
 void daftar()
 {
     FILE *fp, *fp1;
-    fp = fopen("b.txt", "ab");
-    fp1 = fopen("p.txt", "a");
+    fp = fopen("database.bin", "ab");
+    fp1 = fopen("username.txt", "a");
     printf("Masukkan Nama Anda: \t");
     scanf("%s", d.name);
     printf("Masukkan Username: \t");
@@ -114,7 +114,7 @@ int login()
 {
     char usr[25], pw[25];
     FILE *fp;
-    fp = fopen("b.txt", "rb");
+    fp = fopen("database.bin", "rb");
     printf("\t\tUsername:-  ");
     scanf("%s", usr);
     printf("\t\tPassword:-  ");
@@ -170,7 +170,7 @@ void petunjuk()
 void skor(int a) //
 {
     FILE *fp;
-    fp = fopen("p.txt", "a");   // buat baru jika tidak ada atau tulis ulang
+    fp = fopen("username.txt", "a");   // buat baru jika tidak ada atau tulis ulang
     if (q1 == 1 && a)
     {
         printf("Selamat!!!\nSaudara memenangkan Rp.%d.", 10000);
@@ -439,7 +439,7 @@ void jikasalah()
 void keluar()
 {
     FILE *fp1;
-    fp1 = fopen("p.txt", "w");
+    fp1 = fopen("username.txt", "w");
     header();
     printf("\n\n \t\t\tKamu telah keluar dari game");
     printf("\n\n \t\t\tKamu adalah seorang pemenang ");
