@@ -411,9 +411,7 @@ void jikabenar()
     system("cls");
    
     printf("\t\t*************Selamat!!!***********  \n\n\t\t\t\t Saudara benar.");
-   
-
-    Beep(500, 500);
+    Beep(500, 500); //Dengan fungsi beep, ia akan meneluarkan nada pada speaker
     Beep(1000, 500);
     Beep(1500, 500);
     skor(1);
