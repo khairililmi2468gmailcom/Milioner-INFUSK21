@@ -1,5 +1,5 @@
 Kelompok 1 :
-- Dzulkiram Ilmi
+- Dzulkiram Hilmi
 - Khairil Ilmi
 - Muhammad Danish Rabbani
 - Muhammad Ghufran
