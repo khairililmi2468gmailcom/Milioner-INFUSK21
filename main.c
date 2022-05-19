@@ -142,32 +142,33 @@ void header()
 {
     system("cls");
     printf("\t\t");
-    printf("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n");
+   // printf("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n");
     printf("\t\t");
 
-    printf("**********************************************************\n\n");
+ //   printf("**********************************************************\n\n");
     printf("\t\t");
-    printf("                INFUSK Who Want To Be Millionare                \n\n \t\t\tUSERNAME :: \" %s\"\n\n", d.username);
+    printf("\n\t===Who Want To Be Millionare====");
+    printf("\n\t\t\t\tUSERNAME : %s", d.username);
     printf("\t\t");
-    printf("***********************************************************\n\n");
+  //  printf("***********************************************************\n\n");
     printf("\t\t");
-    printf("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n");
+  //  printf("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n");
 }
 
 void petunjuk()
 {
     header();
-    printf("\n\t\t************Sebelum Kita Memulai**************\n\n\t\t********* Baca Petunjuk*********\n\n");
-    printf("\n\n\t\t1. Game ini memiliki 3 level :\n\t\t1.Easy\t\t\t2.Medium\t\t\t3.Hard  \n");
-    printf("\n\n\t\t2. Satu Level terdiri dari 10 soal\n\t\t dijawab satu peRpatu .\n");
-    printf("\n\t\t3. Dimulai dari \n\t\t Rp. 10,000 to Rp. 1 M  \n\t.\n");
-    printf("\n\t\t4. Jawablah dengan benar\n\t\t dan kamu akan mendapatkan banyak uang .\n");
-    printf("\n\t\t5. Jika kamu salah jawab maka ulangi lagi sampai kamu bisa\n\t\t tetapi harus dimulai dari awal.\n");
-    printf("\n\t\t6. Kamu dapat keluar dari geme .");
+    printf("\n\tPETUNJUK : \n\n");
+    printf("\n\n\t\t1. Satu Level terdiri dari 10 soal\n\t\t dijawab satu peRpatu .\n");
+    printf("\n\t\t2. Dimulai dari \n\t\t Rp. 10,000 to Rp. 1 M  \n\t.\n");
+    printf("\n\t\t3. Jawablah dengan benar\n\t\t dan kamu akan mendapatkan banyak uang .\n");
+    printf("\n\t\t4. Jika kamu salah jawab maka ulangi lagi sampai kamu bisa\n\t\t tetapi harus dimulai dari awal.\n");
+    printf("\n\t\t5. Kamu dapat keluar dari geme .");
     getch();
 }
 
 void skor(int a) //
+
 {
     FILE *fp;
     fp = fopen("username.txt", "a");   // buat baru jika tidak ada atau tulis ulang
@@ -473,7 +474,7 @@ q111:
         printf("\n\n\t\t\t\tE. Gunakan");
     }
 
-    printf("\n\n\t\t\t\tF. keluar Game");
+    printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
     printf("\n\n\t\t\t\t Pilihan mu :  >>>");
     fflush(stdin);
     scanf("%c", &q);
@@ -533,7 +534,7 @@ q111:
             printf("\n\n\t\t\t\tE. Gunakan: \n\n\t\t\t\tTelepon");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
         scanf("%c", &q);
@@ -577,7 +578,7 @@ q111:
             printf("\n\n\t\t\t\tE. Gunakan: 50:50");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Telepons: \n\t\t\t\tA. tidak kekal");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
@@ -629,7 +630,7 @@ q121:
         printf("\n\n\t\t\t\tE. Gunakan");
     }
 
-    printf("\n\n\t\t\t\tF. keluar Game");
+    printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
     printf("\n\n\t\t\t\t Pilihan mu :  >>>");
     fflush(stdin);
     scanf("%c", &q);
@@ -690,7 +691,7 @@ q121:
             printf("\n\n\t\t\t\tE. Gunakan: \n\n\t\t\t\tTelepon");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
         scanf("%c", &q);
@@ -734,7 +735,7 @@ q121:
             printf("\n\n\t\t\t\tE. Gunakan: 50:50");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Telepons: \n\t\t\t\tC. 14 to 18");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
@@ -786,7 +787,7 @@ q131:
         printf("\n\n\t\t\t\tE. Gunakan");
     }
 
-    printf("\n\n\t\t\t\tF. keluar Game");
+    printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
     printf("\n\n\t\t\t\t Pilihan mu :  >>>");
     fflush(stdin);
     scanf("%c", &q);
@@ -847,7 +848,7 @@ q131:
             printf("\n\n\t\t\t\tE. Gunakan: \n\n\t\t\t\tTelepon");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
         scanf("%c", &q);
@@ -891,7 +892,7 @@ q131:
             printf("\n\n\t\t\t\tE. Gunakan: 50:50");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Telepons: \n\t\t\t\tC. An Naml ayt 40");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
@@ -943,7 +944,7 @@ q141:
         printf("\n\n\t\t\t\tE. Gunakan");
     }
 
-    printf("\n\n\t\t\t\tF. keluar Game");
+    printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
     printf("\n\n\t\t\t\t Pilihan mu :  >>>");
     fflush(stdin);
     scanf("%c", &q);
@@ -1004,7 +1005,7 @@ q141:
             printf("\n\n\t\t\t\tE. Gunakan: \n\n\t\t\t\tTelepon");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
         scanf("%c", &q);
@@ -1048,7 +1049,7 @@ q141:
             printf("\n\n\t\t\t\tE. Gunakan: 50:50");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Telepons: \n\t\t\t\tD. Kokoh ");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
@@ -1099,7 +1100,7 @@ q151:
         printf("\n\n\t\t\t\tE. Gunakan");
     }
 
-    printf("\n\n\t\t\t\tF. keluar Game");
+    printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
     printf("\n\n\t\t\t\t Pilihan mu :  >>>");
     fflush(stdin);
     scanf("%c", &q);
@@ -1160,7 +1161,7 @@ q151:
             printf("\n\n\t\t\t\tE. Gunakan: \n\n\t\t\t\tTelepon");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
         scanf("%c", &q);
@@ -1204,7 +1205,7 @@ q151:
             printf("\n\n\t\t\t\tE. Gunakan: 50:50");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Telepons: \n\t\t\t\tB. {4, 6, 8, 10, 12}");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
@@ -1255,7 +1256,7 @@ q161:
         printf("\n\n\t\t\t\tE. Gunakan");
     }
 
-    printf("\n\n\t\t\t\tF. keluar Game");
+    printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
     printf("\n\n\t\t\t\t Pilihan mu :  >>>");
     fflush(stdin);
     scanf("%c", &q);
@@ -1316,7 +1317,7 @@ q161:
             printf("\n\n\t\t\t\tE. Gunakan: \n\n\t\t\t\tTelepon");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
         scanf("%c", &q);
@@ -1360,7 +1361,7 @@ q161:
             printf("\n\n\t\t\t\tE. Gunakan: 50:50");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Telepons: \n\t\t\t\tC. 13 ");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
@@ -1412,7 +1413,7 @@ q171:
         printf("\n\n\t\t\t\tE. Gunakan");
     }
 
-    printf("\n\n\t\t\t\tF. keluar Game");
+    printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
     printf("\n\n\t\t\t\t Pilihan mu :  >>>");
     fflush(stdin);
     scanf("%c", &q);
@@ -1473,7 +1474,7 @@ q171:
             printf("\n\n\t\t\t\tE. Gunakan: \n\n\t\t\t\tTelepon");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
         scanf("%c", &q);
@@ -1517,7 +1518,7 @@ q171:
             printf("\n\n\t\t\t\tE. Gunakan: 50:50");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Telepons: \n\t\t\t\tB. x ≥ 5  ");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
@@ -1569,7 +1570,7 @@ q181:
         printf("\n\n\t\t\t\tE. Gunakan");
     }
 
-    printf("\n\n\t\t\t\tF. keluar Game");
+    printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
     printf("\n\n\t\t\t\t Pilihan mu :  >>>");
     fflush(stdin);
     scanf("%c", &q);
@@ -1630,7 +1631,7 @@ q181:
             printf("\n\n\t\t\t\tE. Gunakan: \n\n\t\t\t\tTelepon");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
         scanf("%c", &q);
@@ -1674,7 +1675,7 @@ q181:
             printf("\n\n\t\t\t\tE. Gunakan: 50:50");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Telepons: \n\t\t\t\tA. 11  ");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
@@ -1725,7 +1726,7 @@ q191:
         printf("\n\n\t\t\t\tE. Gunakan");
     }
 
-    printf("\n\n\t\t\t\tF. keluar Game");
+    printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
     printf("\n\n\t\t\t\t Pilihan mu :  >>>");
     fflush(stdin);
     scanf("%c", &q);
@@ -1786,7 +1787,7 @@ q191:
             printf("\n\n\t\t\t\tE. Gunakan: \n\n\t\t\t\tTelepon");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Enter your choice >>>");
         fflush(stdin);
         scanf("%c", &q);
@@ -1830,7 +1831,7 @@ q191:
             printf("\n\n\t\t\t\tE. Gunakan: 50:50");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Telepons: \n\t\t\t\tA. Membuat algoritma ");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
@@ -1882,7 +1883,7 @@ q1101:
         printf("\n\n\t\t\t\tE. Gunakan");
     }
 
-    printf("\n\n\t\t\t\tF. keluar Game");
+    printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
     printf("\n\n\t\t\t\t Pilihan mu :  >>>");
     fflush(stdin);
     scanf("%c", &q);
@@ -1943,7 +1944,7 @@ q1101:
             printf("\n\n\t\t\t\tE. Gunakan: \n\n\t\t\t\tTelepon");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
         scanf("%c", &q);
@@ -1987,7 +1988,7 @@ q1101:
             printf("\n\n\t\t\t\tE. Gunakan: 50:50");
         }
 
-        printf("\n\n\t\t\t\tF. keluar Game");
+        printf("\n\n\t\t\t\tE. Life Line\t F. Keluar Game");
         printf("\n\n\t\t\t\t Telepons: \n\t\t\t\tD. Bahasa Pemrograman");
         printf("\n\n\t\t\t\t Pilihan mu :  >>>");
         fflush(stdin);
