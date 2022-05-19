@@ -21,7 +21,7 @@ void cheque();  //ghufran
 
 void tentang(); //ghufran
 
-struct biodata
+struct biodata  //struct bersifat global
 {
     char name[25];
     char username[25];
