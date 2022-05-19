@@ -16,8 +16,8 @@ void quiz1();   //danis
 void jikabenar();   //danis
 void jikasalah();   //danis
 
-void skor(int); //gufran
-void cheque();  //gufran
+void skor(int); //ghufran
+void cheque();  //ghufran
 
 void tentang();
 
