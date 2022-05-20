@@ -260,7 +260,7 @@ void skor(int a)
     }
     else if (q1 == 7 && a == 0)
     {
-        printf("Bagus Sekali.....\nKamu bisa membawa pulang Rp.1.250.000");
+        printf("Bagus Sekali.....\nKamu bisa membawa pulang Rp.250.000");
         c.uang = 250000;
         fprintf(fp, "%d\n", c.uang);
         getch();
@@ -274,7 +274,7 @@ void skor(int a)
     }
     else if (q1 == 8 && a == 0)
     {
-        printf("Kerja bagus.....\nKamu membawa pulang Rp.2.500.000");
+        printf("Kerja bagus.....\nKamu membawa pulang Rp.1.500.000");
         c.uang = 1250000;
         fprintf(fp, "%d\n", c.uang);
         getch();
@@ -282,8 +282,8 @@ void skor(int a)
     }
     else if (q1 == 9 && a)
     {
-        printf("Selamat!!!\nKamu berhasil mendapatkan  Rp.%d.", 500000);
-        c.uang = 500000;
+        printf("Selamat!!!\nKamu berhasil mendapatkan  Rp.%d.", 5000000);
+        c.uang = 5000000;
         getch();
     }
     else if (q1 == 9 && a == 0)
@@ -296,9 +296,9 @@ void skor(int a)
     }
     else if (q1 == 10 && a)
     {
-        printf("Selamat!!!\nKamu memenangkan Rp.%d.", 1000000);
+        printf("Selamat!!!\nKamu memenangkan Rp.%d.", 10000000);
         printf("\n\t\tYOU ARE A MILLIONAIRE!!");
-        c.uang = 1000000;
+        c.uang = 10000000;
         fprintf(fp, "%d\n", c.uang);
         getch();
         cheque(c.uang);
