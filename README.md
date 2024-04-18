@@ -1,8 +1,5 @@
-Kelompok 1 :
-- Dzulkiram Hilmi
-- Khairil Ilmi
-- Muhammad Danish Rabbani
-- Muhammad Ghufran
+Khairil Ilmi
+
 
 && Geme Milioner dengan bahasa pemrograman C
 
