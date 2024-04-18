@@ -1,7 +1,4 @@
-Khairil Ilmi
-
-
-&& Geme Milioner dengan bahasa pemrograman C
+Geme Milioner dengan bahasa pemrograman C
 
 Ada beberapa menu antara lain :
 1. Pendaftaran
